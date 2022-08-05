@@ -81,7 +81,10 @@ DATABASES = {
         'USER': 'django',
         'PASSWORD': 'django',
         'HOST': 'db',
-        'PORT': '3306'
+        'PORT': '3306',
+        'TEST': {
+            'MIRROR': "default",
+        },
     }
 }
 
